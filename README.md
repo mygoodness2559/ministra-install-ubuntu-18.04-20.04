@@ -33,8 +33,8 @@ This is the time zone that will be set during the installation, you can change i
 
 The installation itself is as follows:
 ```bash
-chmod +x ministra-install-ubuntu-18.04-20.04.sh
-./ministra-install-ubuntu-18.04-20.04.sh
+chmod +x ministra_install_ubuntu.20.04.sh
+./ministra_install_ubuntu.20.04.sh
 ```
 Accordingly, during the installation, when executing the last command, phing will ask you for the root password for MySQL, enter the password you set on line 11
 
