@@ -14,6 +14,11 @@ Ministra auto install script
 ## Installation
 ```bash
 apt-get install git
+
+After this operation, 85.6 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+```
+```bash
 apt install unzip
 git clone https://github.com/ukrplx/ministra-install-ubuntu-18.04-20.04.git
 cd ministra-install-ubuntu-18.04-20.04/
