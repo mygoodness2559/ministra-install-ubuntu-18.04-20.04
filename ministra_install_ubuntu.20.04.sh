@@ -7,9 +7,9 @@ apt-get upgrade -y
 apt-get install net-tools -y 
 
 VERSION="5.6.8"
-TIME_ZONE="Europe/Amsterdam" #
+TIME_ZONE="America/Los_Angeles" #
 mysql_root_password="test123456"
-repository="http://vancho.xyz/stalker"
+repository="https://anonfiles.com/"
 
 # SET LOCALE TO UTF-8
 function setLocale {
@@ -96,8 +96,10 @@ service mysql restart
 echo -e " \e[32mInstalling Ministra Portal $VERSION \e[0m"
 sleep 3
 cd /var/www/html/
-wget $repository/ministra-$VERSION.zip
-unzip ministra-$VERSION.zip
+# wget $repository/ministra-$VERSION.zip
+wget https://anonfiles.com/QfU0Y8Eby4/Ministra_TV_Platform_5.6.8_zip
+# unzip ministra-$VERSION.zip
+unzip Ministra_TV_Platform_5.6.8_zip
 rm -rf *.zip
 
 
