@@ -14,11 +14,16 @@ Ministra auto install script
 ## Installation
 ```bash
 apt-get install git
+apt install unzip
 git clone https://github.com/ukrplx/ministra-install-ubuntu-18.04-20.04.git
 cd ministra-install-ubuntu-18.04-20.04/
 ```
 
-Open ministra_install_ubuntu.20.04.sh with your favorite text editor and change on line 11
+Open ministra_install_ubuntu.20.04.sh with your favorite text editor 
+```bash
+nano ministra_install_ubuntu.20.04.sh
+```
+and change on line 11
 ```bash
 mysql_root_password="test123456"
 ```
