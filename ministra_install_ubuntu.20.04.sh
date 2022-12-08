@@ -99,7 +99,7 @@ cd /var/www/html/
 # wget $repository/ministra-$VERSION.zip
 wget http://185.25.27.50:88/Ministra_TV_Platform_5.6.8.zip
 # unzip ministra-$VERSION.zip
-unzip Ministra_TV_Platform_5.6.8_zip
+unzip Ministra_TV_Platform_5.6.8.zip
 rm -rf *.zip
 
 
